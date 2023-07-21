@@ -6,7 +6,7 @@
     opacity: 0.5;
     -webkit-transition:all .3s ease-out;
     -o-transition:all .3s ease-out;
-    transition:all .3s ease-out
+    transition:all .3s ease-out;
     filter: blur(1.5rem);
 }
 .introjs-showElement{
