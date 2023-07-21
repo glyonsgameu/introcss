@@ -65,7 +65,6 @@ tr.introjs-showElement>th{
 }
 .introjs-tooltipReferenceLayer *{
     font-family:"TTNorms-Regular","Helvetica Neue",Inter,ui-sans-serif,"Apple Color Emoji",Helvetica,Arial,sans-serif
-    color: #ffffff;
     font-size: 1em;
 }
 .introjs-helperNumberLayer{
@@ -146,9 +145,12 @@ tr.introjs-showElement>th{
     -webkit-transition:opacity .1s ease-out;
     -o-transition:opacity .1s ease-out;
     transition:opacity .1s ease-out;
+
+
 }
 .introjs-tooltiptext{
     padding:20px;
+    color: #ffffff;
 }
 .introjs-tooltip-title{
     font-size:2em;
