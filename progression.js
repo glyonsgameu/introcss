@@ -8,5 +8,11 @@ function diminished_value(base, current, max){
     }
     
     var result = base - (base * (current/max));//linear
+
+    if (result == null){
+        result = 0;
+    }
+
+    
     return result;
 }
