@@ -6,13 +6,9 @@ function diminished_value(base, current, max){
     else if (current <=0) {
         return base;
     }
-    
-    var result = base - (base * (current/max));//linear
 
-    if (result == null){
-        result = 0;
-    }
+    let result = 0;
+    result = base - (base * (current/max));//linear
 
-    
     return result;
 }
